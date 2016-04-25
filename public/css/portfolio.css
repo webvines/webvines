@@ -1,0 +1,242 @@
+.portfolio-container{
+
+	margin-top: 30px;
+}
+
+.cometchat, .prabhav, .paramountgoa, .cometchat-cloud, .furnace, .supercharge, .sparkchat, .apptuse{
+
+	width: 100%;
+	height: 214px;	
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.cometchat:hover, .prabhav:hover, .paramountgoa:hover, .cometchat-cloud:hover, .furnace:hover, .supercharge:hover,
+.sparkchat:hover, .apptuse:hover{
+
+	border: 1px solid #3498DB;
+	transition: all 0.5s;
+	box-shadow: 10px 10px 27px -22px rgba(0,0,0,0.75);
+}
+
+.cometchat-bg{
+
+	background: #2F353E;
+}
+
+.prabhav-bg{
+
+	background: #fff;
+}
+
+.paramountgoa-bg{
+
+	background: #fff;
+}
+
+.furnace-bg{
+
+	background: #333333;
+}
+
+.home{
+
+	background: url('../img/icons/home.png') no-repeat;
+	background-position: 0 0;
+	margin: auto;
+	width: 20%;
+	height: 64px;
+	
+}
+
+.home-pd{
+
+	padding-top: 30px;
+}
+
+#portfolio-1, #portfolio-2{
+
+	/*display: none;*/
+}
+
+.cometchat-logo{
+
+
+	background: url('../img/portfolio/cometchat.png') no-repeat;
+	background-position: 114px 86px;
+	display: block;	
+	width: 100%;
+	height: 100%;
+	
+}
+
+.prabhav-logo{
+
+	background: url('../img/portfolio/prabhav.png') no-repeat;
+	background-position: 78px 22px;
+	display: block;	
+	width: 100%;
+	height: 100%;
+}
+
+.cometchat-cloud-logo{
+
+	background: url('../img/portfolio/cometchatcloud.png') no-repeat;
+	background-position: 88px 96px;
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+
+.paramountgoa-logo{
+
+	background: url('../img/portfolio/paramountgoa.png') no-repeat;
+	display: block;
+	background-position: 60px 52px;
+	width: 100%;
+	height: 100%;
+
+}
+
+.furnace-logo{
+
+	background: url('../img/portfolio/furnace.png') no-repeat;
+	background-position: 60px 80px;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.supercharge-logo{
+
+	background: url('../img/portfolio/supercharge.png') no-repeat;
+	background-position: 102px 30px;
+	width: 100%;
+	height: 100%;
+	display: block;
+
+}
+
+.sparkchat-logo{
+
+
+	background: url('../img/portfolio/sparkchat.png') no-repeat;
+	background-position: 102px 30px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.apptuse-logo{
+
+
+	background: url('../img/portfolio/apptuse.png') no-repeat;
+	background-position: 102px 30px;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.portfolio-title{
+
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	background: #F7F7C4;
+	margin-left: 8px;
+}
+
+.hamburger-container{
+
+	position: absolute;
+	right: 0;
+	top: 28px;
+	cursor: pointer;
+}
+
+.hamburger-container:hover{
+
+	transition: all 0.4s;
+	color: #6C7A89;
+}
+
+.hamburger-container span{
+
+	display: block;
+	width: 20px;
+	height: 20px;
+}
+
+.glyphicon-menu-hamburger{
+
+	font-size: 32px;
+}
+
+.hamburger-link{
+
+	color: #2c3e50;
+}
+
+.menu{
+
+	display: none;
+
+}
+
+.menu-block{
+
+	position: absolute;
+	top: 60px;
+	right: -168px;
+	height: 132px;
+	width: 168px;
+	background: #ececec;
+	border-radius: 3px;
+	border: 1px solid #d3d3d3;
+
+}
+
+.pointer{
+
+	display: block;
+	height: 0;
+	width: 0;	
+	position: absolute;
+	top: -4px;
+	right: 47px;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid #ececec;
+
+}
+
+ul li{
+
+	list-style: none;
+	padding-top: 10px;
+	text-transform: uppercase;
+	/*font-family: ;*/
+	font-size: 17px;
+	color: #000;
+}
+
+a{
+
+	text-decoration: none;
+	/*color: #000;*/
+}
+
+a:hover{
+
+	text-decoration: none;
+	color: #000;
+}
+
+.subtile-container{
+
+	margin: auto;
+	width: 100px;
+}
+

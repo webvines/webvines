@@ -1,0 +1,110 @@
+@media screen and (max-width: 320px){
+
+	.hidden-phone{
+
+		display: none;
+	
+	}
+
+	.info-content{
+
+		max-width: 290px !important;
+		width: 290px !important;
+	}
+
+	.prabhav, .furnace, .cometchat, .cometchat-cloud {
+
+		margin-bottom: 30px;
+	}
+
+	.cometchat-logo{
+
+		background-position: 78px 86px;
+	}
+
+	 .prabhav-logo{
+
+	 	background-position: 48px 20px;
+	 }
+
+	 .paramountgoa-logo{
+
+	 	background-position: 20px 52px;
+	 }
+
+	 .cometchat-cloud-logo{
+
+	 	background-position: 54px 96px;
+	 }
+
+	 .furnace-logo{
+
+	 	background-position: 24px 80px;
+	 }
+
+	 .supercharge-logo{
+
+	 	background-position: 66px 30px;
+	 }
+
+	 .hamburger-container{
+
+	 	right: 22px;
+	 	top: 14px;
+	 }
+
+	 
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px){
+
+
+	.prabhav, .furnace, .cometchat, .cometchat-cloud {
+
+		
+		width: 50%;
+		margin: auto;
+	}
+
+	.paramountgoa, .supercharge{
+
+		width: 50%;
+		margin: auto;
+	}
+
+	.cometchat, .prabhav, .cometchat-cloud, .furnace{
+
+		margin-bottom: 30px;
+	}
+
+	.hamburger-container{
+
+	 	right: 22px;
+	 	top: 14px;
+	 }
+
+	 .hidden-phone{
+
+		display: none;
+	}
+
+	 /*.cometchat-logo{
+
+	 	background-position: 52px 88px;
+	 }*/
+
+	 
+
+}
+
+@media screen and (min-width: 769px){
+
+	.hidden-desktop{
+
+		display: none;
+	}
+
+}
+
+
+

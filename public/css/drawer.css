@@ -1,0 +1,43 @@
+.sidenav{
+
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background: #333;
+	overflow: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+
+.sidenav a {
+
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+
+	color: #3498DB;
+}
+
+.closebtn {
+
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px !important;
+	margin-left: 50px;
+}
+
+#mySideNav a span{
+
+	padding-right: 6px;
+}

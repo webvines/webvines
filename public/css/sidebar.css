@@ -1,0 +1,87 @@
+.sidebar-container{
+
+			position: fixed;
+			left: 0;
+			top: 0;
+			background: #222;
+			width: 50px;
+			height: 100%;
+
+		}
+
+		.sidebar-content{
+
+			/*position: relative;*/
+		}
+
+		.home-icon{
+
+			position: absolute;
+			left: 15px;
+			cursor: pointer;
+			
+		}
+
+		.portfolio-icon{
+
+			position: absolute;
+			top: 64px;
+			left: 14px;
+			cursor: pointer;
+		}
+
+		.download-icon{
+
+			position: absolute;
+			left: 14px;
+			top: 118px;
+			cursor: pointer;
+		}
+
+		.github-icon{
+
+			position: absolute;
+			left: 16px;
+			top: 172px;
+			cursor: pointer;
+		}
+
+		.linkedin-icon{
+
+
+			position: absolute;
+			left: 16px;
+			top: 226px;
+			cursor: pointer;
+		}
+
+		.howto-icon{
+
+
+			position: absolute;
+			left: 17px;
+			top: 280px;
+			cursor: pointer;
+		}
+
+		.home-icon i:hover, .download-icon i:hover, .howto-icon i:hover, .portfolio-icon i:hover, .linkedin-icon i:hover, .github-icon i:hover{
+
+			color: #16a085;
+			transition: ease 0.4s;
+		}
+
+		.fa-home, .fa-cloud-download, .fa-bolt, .fa-picture-o, .fa-github, .fa-linkedin{
+
+			color: #fff;
+			font-size: 22px !important;
+		}
+		
+
+		.sidebar-content ul li{
+
+			list-style: none;
+		}
+
+		.tool-tip{
+
+		}

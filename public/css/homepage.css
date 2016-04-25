@@ -1,0 +1,106 @@
+.logo-container{
+
+	margin: auto;
+	width: 200px;
+	padding-top: 35px;
+}
+
+.logo-content, .portfolio-content{
+
+	margin: auto;
+	width: 51%;
+	 
+}
+
+.sr-logo{
+
+	/*font-family: 'Fredericka the Great', cursive;
+	font-size: 70px;*/
+	display: block;
+	background: url('../img/icons/logo.png') no-repeat;	
+	height: 166px;
+	width: 116px;
+
+}
+
+.sr-logo:hover{
+
+	cursor: pointer;
+	/*color: #00ced6;
+	transition: all 1.0s;*/
+}
+
+.info-container{
+
+	margin: auto;
+	width: 320px;
+	padding-top: 20px;
+}
+
+.info-content{
+
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 17px;	
+	padding-bottom: 5px;
+}
+
+.sr-text{
+
+	background: #F7F7C4;
+}
+
+.portfolio-link{
+
+	text-decoration: none;
+}
+
+hr{
+
+	width: 40%;
+	background: #ebebeb;
+}
+
+#logo-slide{
+
+	/*display: none;*/
+}
+
+.linkedin{
+
+	background: url('../img/icons/linkedin.png');
+	background-position: 0 0;
+	height: 64px;
+	width: 64px;
+	display: block;
+}
+
+.github{
+
+	background: url('../img/icons/github.png');
+	background-position: 0 0;
+	height: 64px;
+	width: 64px;
+	display: block;
+	
+}
+
+.icons{
+
+	padding-top: 10px;
+	margin-left: -30px;
+}
+
+.icons li{
+
+	display: inline-block;
+}
+
+.cometchat:hover{
+
+	transition: all 0.5s;
+}
+
+
+
+
